@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import {Card,CardGroup,ListGroupItem} from 'react-bootstrap';
+import {Card,CardGroup,ListGroupItem,Button} from 'react-bootstrap';
 import { ThemeConsumer } from 'react-bootstrap/esm/ThemeProvider';
 
 export default class fake extends Component {
@@ -64,7 +64,53 @@ constructor(props) {
     </Card.Footer>
   </Card>
 </CardGroup>
-me9ithch lw7da t3a recherch just chof hetha o 9ooli chnowa nbdil fiyhbithbit
+<Card style={{ width: '18rem' }}>
+<Card.Title>{this.props.v}</Card.Title>
+  <Card.Img variant="top" src={this.props.vi} />
+  <Card.Body>
+    <Card.Text style={{color:"orange"}}>
+    This realistic series focuses on the exploits of the hero Ragnar Lothbrok who aspires to extend Viking power in favor of a leader lacking political vision.
+    </Card.Text>
+    orginal serie netflix
+    <Button href="https://www.netflix.com/search?q=vaiking&jbv=70301870">Click for seri</Button>
+  </Card.Body>
+</Card>
+<>
+  <Card>
+  <Card.Title>{this.props.j}</Card.Title>
+    <Card.Img variant="top" src={this.props.jw} />
+    <Card.Body>
+      <Card.Text style={{color:"gold"}}>
+      John Wick, also known as John Wick: Chapter One, is an American neo-noir action film directed by Chad Stahelsky and written by Derek Kolstad. Released in 2014. The film stars Keanu Reeves, Michael Nyqvist, Alfie Allen, Adriani Palecki, Bridget Moynahan, Dean Winters. , Ian McShane, John Leguizamo and Willem Dafoe. It is the first movie in the John Wick series
+      </Card.Text>
+    </Card.Body>
+  </Card>
+  <br />
+  <Card>
+  <Card.Title>{this.props.ti}</Card.Title>
+    <Card.Body>
+      <Card.Text style={{color:'blue'}}>
+      While going it alone, Dick Grayson, Batman's former partner, meets several young heroes in desperate need of a mentor
+      </Card.Text>
+    </Card.Body>
+    <Card.Img variant="bottom" src={this.props.ta}/>
+    <br/>
+    <Button href="https://www.netflix.com/search?q=john%20wick&jbv=80218200">Click for seri</Button>
+  </Card>
+  <br/>
+  <Card className="bg-dark text-white">
+  <Card.Title>{this.props.sp}</Card.Title>
+  <Card.Img src={this.props.ma} />
+  <Card.ImgOverlay>
+    <Card.Text>
+    In this adaptation of the famous superhero franchise, Peter Parker learns how to use his new powers to fight the Lizard during his high school years.
+    </Card.Text>
+    <Button href="https://www.netflix.com/search?q=john%20wick&jbv=70208599" >Click for serie</Button>
+  </Card.ImgOverlay>
+</Card>
+
+</>
+
 
             </div>
         )
